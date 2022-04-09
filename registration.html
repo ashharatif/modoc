@@ -186,7 +186,7 @@ other service(form) )
 						    <tr>
 								<td>Adhar Card / PAN Card / Voter ID Card:</td>								
 								<td>							
-								    <input type="file"   name="txtPic"  />								
+								    <input type="file"   name="txtPic" multiple />								
 								</td>
 							</tr>
 							<tr>
@@ -197,8 +197,8 @@ other service(form) )
 								<td>
 								<!--<input type="submit" name="btnRegister"  value="Register Me">-->
 								<button  type="submit" name="btnRegister" onclick="myfun()">Register Me</button>
-								<button  type="reset" name="btnReset">Cancel</button>
-								<button  type="button" name="btn2" onclick="myfun()">Submit</button>
+								<button  type="reset" name="btnReset">Reset</button>
+								<!-- <button  type="button" name="btn2" onclick="myfun()">Submit</button> -->
 								<script type="text/javascript">
 								      function myfun(){
 									           alert(document.getElementById("txtUrl").value);
