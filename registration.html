@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css" />
+
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+   <script src="../bootstrap/js/jquery-3.1.1.min.js"type="text/javascript"></script>
+    
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+       <script src="../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+     
     <style>
 		a{
 			color: rgb(255, 255, 255);
@@ -75,8 +84,9 @@ other service(form) )
 			  <div style="width:100%;margin:auto" >
 				<fieldset>
 				  <legend align="center" ><b>Registration Form</b></legend>
-						<table width="100%" align="center" 
-						border="10px" cellspacing="0px" cellpadding="5px">
+						<table  align="center" style=" color: yellow ;" 
+						 class="table table-bordered table-dark" >
+						
 						<tr>
 							<td>Select User:</td>								
 							<td>
@@ -196,8 +206,8 @@ other service(form) )
 								</td>
 								<td>
 								<!--<input type="submit" name="btnRegister"  value="Register Me">-->
-								<button  type="submit" name="btnRegister" onclick="myfun()">Register Me</button>
-								<button  type="reset" name="btnReset">Reset</button>
+								<button class="btn btn-danger" role="button" type="submit" name="btnRegister" onclick="myfun()">Register Me</button>
+								<button class="btn btn-danger" role="button" type="reset" name="btnReset">Reset</button>
 								<!-- <button  type="button" name="btn2" onclick="myfun()">Submit</button> -->
 								<script type="text/javascript">
 								      function myfun(){
