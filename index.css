@@ -1,44 +1,46 @@
 body{
-    background-color:rgb(50, 32, 50);
+  background-color:rgb(26, 18, 18);
+  color: #000000;
+  font-family: cursive;
 }
 ul{
-    background-color: black;
-    list-style: none;
-    height: 9vh;
-    width: 100%;
-    
+  background-color: rgb(0, 0, 0);
+  list-style: none;
+  height: 10vh;
+  width: 100em;
+  
 }
 
 ul>li{
-    display: inline-block;
-    width: 3%;
-    padding-top: 1.5%;
-    font-family:Verdana;
-    margin-left: 8%;
-    
+  display: inline-block;
+  width: 3%;
+  padding-top: 1.5%;
+  font-family:Verdana;
+  margin-left: 8%;
+  
 }
 ul a{
-    text-decoration: none;
-    color:white;
-    font-weight: bold;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
 }
 ul a:hover{
-    text-decoration: none;
-    text-transform: uppercase;
-    color:greenyellow;
-    }
-   ul img{
-        position: absolute;
-        height: auto;
-        width: 6%;
-         left:0.5%;
-        margin-top: 0.5%;
-    }
+  text-decoration: none;
+  text-transform: uppercase;
+  color:greenyellow;
+  }
+ ul img{
+      position: absolute;
+      height: auto;
+      width: 6%;
+       left:0.5%;
+      margin-top: 0.5%;
+  }
     .container-fliud{
-        position: relative;
+      
         bottom: 0%;
-        width: 100%;
-        height: 100%;
+        width: 230vh;
+        height: 40%;
         
       
         
@@ -46,8 +48,8 @@ ul a:hover{
      .container-fliud div{
         text-align: center;
         bottom: 0%;
-        padding: 7%;
-         height: 10%;
+        padding: 5%;
+         height: 5% ;
         color: #ffffff;
          background-color: #000000;
      }
@@ -57,7 +59,7 @@ ul a:hover{
    
   
           /* Add styles to the form container */
-          .container {
+          .container1 {
             position: absolute;
             right: 0;
             margin: 20px;
@@ -69,7 +71,7 @@ ul a:hover{
             color: #ddd;
            right: 2%;
           }
-          
+         
           /* Full-width input fields */
             input[type=email], input[type=password] {
             width: 100%;
@@ -113,4 +115,25 @@ ul a:hover{
               background-color: #000000;
               
           }
-        
+          .fa {
+            padding: auto;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 94;
+            
+          }
+          .container{
+          margin-left: 0px;
+          }
+          .container-fliud div a {
+            color: #ffffff;
+            text-decoration: none;
+          }
+          /* div a:hover{
+            color: #000000;
+            background-color: #ffffff;
+            text-decoration: none;
+          } */
+         
